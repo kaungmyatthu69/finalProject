@@ -33,7 +33,7 @@ const Login = () => {
         <h1 className="text-3xl font-semibold  text-blue-500">Login Account</h1>
         <div>
           <input
-            type="text"
+            type="email"
             placeholder="enter your email"
             value={email}
             onChange={e=>setEmail(e.target.value)}
@@ -42,7 +42,7 @@ const Login = () => {
         </div>
         <div className="">
           <input
-            type="text"
+            type="password"
             placeholder="enter your password "
             value={password}
             onChange={e=>setPassword(e.target.value)}
